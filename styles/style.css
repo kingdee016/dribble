@@ -1,0 +1,121 @@
+.contain{
+    width: 160rem;
+    height: 70vh;
+    display: flex !important;
+    overflow: hidden;
+    animation: slide 40s linear infinite;
+    margin-top: 5rem;
+}
+.first{ 
+    position:relative; 
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+}
+.second{ 
+    position:relative; 
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+}
+video {
+    position:relative;
+    z-index:0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+video:hover{
+    opacity: .9;
+    background-color: black;
+}
+.overlay {
+    position:absolute;
+    width: 70%;
+    top:70%;
+    left:10%;
+    z-index:1;
+    color: white;
+}
+.overlay2{
+    position:absolute;
+    width: 70%;
+    top:70%;
+    left:10%;
+    z-index:1;
+    color: white;
+}
+.con{
+    width: 300rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+.cont{
+    width: 300rem;
+    height: 100%;
+    display: flex !important;
+    overflow-x: hidden;
+}
+.third{
+    position:relative; 
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+}
+.fourth{
+    position:relative; 
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+}
+.fifth{
+    position:relative; 
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+    margin-left: 2rem;
+}
+.sixth{
+    position:relative; 
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+}
+.seventh{
+    position:relative; 
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+}
+.eighth{
+    position:relative; 
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+}
+.ninth{
+    position:relative; 
+    border-radius: 10px;
+    width: 100%;
+    height: 89%;
+}
+#tvideo{
+    border-radius: 3rem !important;
+}
+
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-60rem, 0, 0); /* The image width */
+    }
+  }
+  btn2{
+    color: black;
+  }
+.btn2:hover{
+    color: white;
+}
